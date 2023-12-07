@@ -16,7 +16,7 @@
             <img src="instagram.png" alt="Instagram">
         </div>
         <div class="f-cl-2">
-            <ul=>
+            <ul>
                 <li><a href="#">Birthday Cakes</a></li>
                 <li><a href="#">Wedding Cakes</a></li>
                 <li><a href="#">Anniversary Cakes</a></li>
@@ -28,6 +28,9 @@
                 <li><a href="#">Privacy & Policy</a></li>
                 <li><a href="#">Terms & Conditions</a></li>
             </ul>
+        </div>
+        <div class="f-cl-4">
+            <img src="../assets/img/payment.png" alt="">
         </div>
     </div>
 </body>
