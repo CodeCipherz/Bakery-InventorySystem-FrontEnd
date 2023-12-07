@@ -11,6 +11,22 @@
             <img src="logo.png" alt="logo">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima ipsam illum aspernatur debitis perspiciatis ipsum quaerat fugiat commodi distinctio dolor atque asperiores vel nam fuga, maxime officia reiciendis incidunt!</p>
             <h6>Follow us</h6>
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+        <div class="f-cl-2">
+            <ul>
+                <li><a href="#">Birthday Cakes</a></li>
+                <li><a href="#">Wedding Cakes</a></li>
+                <li><a href="#">Anniversary Cakes</a></li>
+                <li><a href="#">Cup Cakes</a></li>
+            </ul>
+        </div>
+        <div class="f-cl-3">
+            <ul>
+                <li><a href="#">Privacy & Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
         </div>
     </div>
 </body>
