@@ -1,9 +1,15 @@
 .footer{
     position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #DDD0E4;
+    color: white;
+    text-align: left;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
