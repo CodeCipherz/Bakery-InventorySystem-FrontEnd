@@ -9,8 +9,8 @@
     <div class="footer">
         <div class="f-cl-1">
             <img src="logo.png" alt="logo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima ipsam illum aspernatur debitis perspiciatis ipsum quaerat fugiat commodi distinctio dolor atque asperiores vel nam fuga, maxime officia reiciendis incidunt!</p>
-            <h6>Follow us</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolores minima ipsam illum aspernatur debitis </p>
+            <h4>Follow us</h4>
             <img src="facebook.png" alt="Facebook">
             <img src="instagram.png" alt="Instagram">
         </div>
