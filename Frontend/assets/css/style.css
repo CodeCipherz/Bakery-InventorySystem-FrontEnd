@@ -118,9 +118,9 @@ ul {
 }
 .divall{
     display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 49px;
+    flex-direction: row;
+    gap: 250px;
+    padding: 10px;
 }
 
 .rightdiv{
@@ -128,6 +128,12 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 56px;
+    padding: 10px;
+}
+.leftdiv{
+ border: 10px;
+ padding: 10px;
+ padding-left: 100px;
 }
 
 .payimg{
@@ -139,3 +145,22 @@ ul {
     width: 120px;
     height: 155px;
 }
+.semidiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+.tbl{
+    width: 100%;
+}
+.th,td{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 179px;
+    height: 33px;
+}
+
