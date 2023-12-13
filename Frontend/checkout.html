@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js"></script>
         <title>Checkout</title>
     </head>
     <body>
@@ -17,26 +18,34 @@
                 <br>
                 <input type="date" id="date" name="date">
                 <br><br>
-                <label for="dtype">Delivery Type</label>
-                <br>
-                <br>
-                    <input id="deliverytype" type="radio" value="value1" name="dtype">PickUp<br>
-                    <input id="deliverytype" type="radio" value="value2" name="dtype">Delivery
+                <label>Select Delivery Type</label>
+                <div>
+                    <input type="radio" id="pickUp" name="deliveryOption" onchange="showDetails()">
+                    <label for="pickUp">PickUp</label>
+                    <br>
+                    <input type="radio" id="delivery" name="deliveryOption" onchange="showDetails()">
+                    <label for="delivery">Delivery</label>
+                </div><br>
+                <div id="deliveryDetailsContainer" style="display: none;">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name"  placeholder="First Name">
+                    <input type="text" id="name" name="name"  placeholder="Last Name">
+                    <br><br>
+                    <label for="address">Address</label>
+                    <br>
+                    <input type="text" id="address" name="address" required>
+                    <br><br>
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10" required><br>
+                    <input id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10">
+                    <br><br>
+                    
+                </div>
+
                 <br><br>
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" name="name"  placeholder="First Name">
-                <input type="text" id="name" name="name"  placeholder="Last Name">
-                <br><br>
-                <label for="address">Address</label>
-                <br>
-                <input type="text" id="address" name="address" required>
-                <br><br>
-                <label for="phone">Phone</label>
-                <br>
-                <input type="number" id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10" required><br>
-                <input type="number" id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10">
-                <br><br>
+                
                 <label for="payment">Payment Method</label>
                 <br>
                     <input id="paymenttype" type="radio" value="value2" name="ptype">Online<br>
