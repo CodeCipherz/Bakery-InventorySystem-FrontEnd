@@ -116,3 +116,85 @@ ul {
     width: 476px;
     height: 584px;
 }
+.divall{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 10px;
+}
+
+.rightdiv{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 56px;
+    padding: 10px;
+}
+.leftdiv{
+ border: 10px;
+ padding: 10px;
+ padding-left: 100px;
+}
+
+.payimg{
+    width: 350px;
+    height: 90px;
+}
+
+#img2{
+    width: 120px;
+    height: 155px;
+}
+.semidiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+.tbl{
+    width: 100%;
+}
+.th,td{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 179px;
+    height: 33px;
+}
+.sidebar{
+    display: none;
+    width: 25%;
+}
+.productsimg1{
+    width: 120px;
+    height: 112px;
+    left: 33px;
+    top: 41px;
+    padding-left: 65px;
+}
+.img-sec-1{
+    width: 260px;
+    height: 275px;
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#date,#email,#address,#phone{
+    width: 100%;
+    height: 6%;
+}
+#name{
+    width: 47%;
+    height: 6%;   
+}
+#main{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+.topic-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}

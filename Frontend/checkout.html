@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js"></script>
+        <title>Checkout</title>
     </head>
     <body>
-        <div class="leftdiv">
-            <label for="contact">Contact</label>
-            <br>
-            <input type="email" id="email" name="email"  placeholder="Email">
-            <br><br>
-            <label for="date">Date</label>
-            <br>
-            <input type="date" id="date" name="date">
-            <br><br>
-            <label for="dtype">Delivery Type</label>
-            <br>
-            <br>
-            <input type="radio" id="dtype" name="dtype">PickUp<br>
-            <input type="radio" id="dtype" name="dtype">Delivery
-            <br><br>
-            <label for="name">Name</label>
-            <br>
-            <input type="text" id="name" name="name"  placeholder="First Name">
-            <input type="text" id="name" name="name"  placeholder="Last Name">
-            <br><br>
-            <label for="address">Address</label>
-            <br>
-            <input type="text" id="address" name="address">
-            <br><br>
-            <label for="phone">Phone</label>
-            <br>
-            <input type="number" id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10"><br>
-            <input type="number" id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10">
-            <br><br>
-            <label for="payment">Payment Method</label>
-            <br>
-            <input type="radio" id="dtype" name="dtype">Online<br>
-            <img src="#">
-            <img src="#">
-            <img src="#">
-            <img src="#"><br>
-            <input type="radio" id="dtype" name="dtype">COD<br>
-            <br><br>
-        </div>
-        <div class="rightdiv">
-            <img src="#">
-            <h3>Strawberry Birthday Drip Cake</h3>
-            <table>
-                <tr>
-                    <th>Subtotal</th>
-                    <td>Rs.6250.00</td>
-                </tr>
-                <tr>
-                    <th>Shipping</th>
-                    <td>Free</td>
-                </tr>
-                <tr>
-                    <th>Total</th>
-                    <td>Rs.6250.00</td>
-                </tr>
-            </table>
-            <br>
-            <button type="button">Place Order</button>
+        <div class="divall">
+            <div class="leftdiv">
+                <label for="contact">Contact</label>
+                <br>
+                <input type="email" id="email" name="email"  placeholder="Email" required>
+                <br><br>
+                <label for="date">Date</label>
+                <br>
+                <input type="date" id="date" name="date">
+                <br><br>
+                <label>Select Delivery Type</label>
+                <div>
+                    <input type="radio" id="pickUp" name="deliveryOption" onchange="showDetails()">
+                    <label for="pickUp">PickUp</label>
+                    <br>
+                    <input type="radio" id="delivery" name="deliveryOption" onchange="showDetails()">
+                    <label for="delivery">Delivery</label>
+                </div><br>
+                <div id="deliveryDetailsContainer" style="display: none;">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name"  placeholder="First Name">
+                    <input type="text" id="name" name="name"  placeholder="Last Name">
+                    <br><br>
+                    <label for="address">Address</label>
+                    <br>
+                    <input type="text" id="address" name="address" required>
+                    <br><br>
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10" required><br>
+                    <input id="phone" name="phone"  placeholder="07XXXXXXXX" maxlength="10" minlength="10">
+                    <br><br>
+                    
+                </div>
 
+                <br><br>
+                
+                <label for="payment">Payment Methods</label>
+                <br>
+                    <input id="paymenttype" type="radio" value="value2" name="ptype">Online<br>
+                    <img class="payimg" src="assets/img/payment.png"><br>
+                    <input id="paymenttype" type="radio" value="value1" name="ptype">COD<br>
+                <br><br>
+            </div>
+
+            <div class="rightdiv">
+                <div class="semidiv">
+                    <img id="img2" src="assets/img/productimg.jpg">
+                    <h3>Strawberry Birthday Drip Cake</h3>
+                </div>
+                <table class="tbl">
+                    <tr>
+                        <th>Subtotal</th>
+                        <td>Rs.6250.00</td>
+                    </tr>
+                    <tr>
+                        <th>Shipping</th>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td>Rs.6250.00</td>
+                    </tr>
+                </table>
+                <button class="btn" type="button">Place Order</button>
+            </div>
         </div>
     </body>
 </html>
