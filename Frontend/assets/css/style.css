@@ -164,6 +164,7 @@ ul {
     height: 33px;
 }
 .sidebar{
+    display: none;
     width: 25%;
 }
 .productsimg1{
@@ -186,4 +187,7 @@ ul {
 #name{
     width: 47%;
     height: 6%;   
+}
+#main{
+    display: flex;
 }
