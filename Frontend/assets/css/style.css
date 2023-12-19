@@ -190,4 +190,11 @@ ul {
 }
 #main{
     display: flex;
+    align-items: flex-start;
+    gap: 3px;
+}
+.topic-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 3px;
 }
